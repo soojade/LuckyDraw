@@ -68,7 +68,7 @@
             this.label2.Cursor = System.Windows.Forms.Cursors.Default;
             this.label2.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(54, 199);
+            this.label2.Location = new System.Drawing.Point(54, 194);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(454, 43);
             this.label2.TabIndex = 4;
@@ -81,12 +81,12 @@
             this.button1.BackgroundImage = global::LuckyDraw.Properties.Resources.start;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(165)))));
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(220, 259);
+            this.button1.Location = new System.Drawing.Point(220, 251);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(111, 101);
+            this.button1.Size = new System.Drawing.Size(103, 96);
             this.button1.TabIndex = 5;
             this.button1.UseVisualStyleBackColor = false;
             // 
