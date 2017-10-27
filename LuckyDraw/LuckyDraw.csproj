@@ -43,14 +43,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FmDrawResult.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FmDrawResult.Designer.cs">
+      <DependentUpon>FmDrawResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmDrawSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmDrawSetting.Designer.cs">
+      <DependentUpon>FmDrawSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmDrawStart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmDrawStart.Designer.cs">
+      <DependentUpon>FmDrawStart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmPerson.Designer.cs">
+      <DependentUpon>FmPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmMain.Designer.cs">
+      <DependentUpon>FmMain.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FmDrawResult.resx">
+      <DependentUpon>FmDrawResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmDrawSetting.resx">
+      <DependentUpon>FmDrawSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmDrawStart.resx">
+      <DependentUpon>FmDrawStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmMain.resx">
+      <DependentUpon>FmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmPerson.resx">
+      <DependentUpon>FmPerson.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -59,6 +98,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -69,6 +109,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="img\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
