@@ -23,6 +23,12 @@ namespace LuckyDraw {
             formPoint.Y = e.Y;
         }
 
+        // 最小化
+        private void BtnMin_Click(object sender, System.EventArgs e) {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        // 关闭
         private void BtnClose_Click(object sender, System.EventArgs e) {
             Close();
         }
@@ -40,5 +46,6 @@ namespace LuckyDraw {
             BtnStart.Width = 110;
             BtnStart.Height = 100;
         }
+
     }
 }

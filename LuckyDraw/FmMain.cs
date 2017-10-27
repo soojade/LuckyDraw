@@ -28,6 +28,11 @@ namespace LuckyDraw {
             formPoint.Y = e.Y;
         }
 
+        // 最小化
+        private void BtnMin_Click(object sender, System.EventArgs e) {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
         // 关闭按钮
         private void BtnClose_Click(object sender, System.EventArgs e) {
             DialogResult result = MessageBox.Show("是否退出程序？", "操作提示", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -128,5 +133,7 @@ namespace LuckyDraw {
             BtnResult.Height = 45;
             BtnResult.ForeColor = Color.Maroon;
         }
+
+
     }
 }

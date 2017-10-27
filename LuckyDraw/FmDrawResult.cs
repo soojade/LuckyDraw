@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
+﻿using System.Drawing;
 using System.Windows.Forms;
 
 namespace LuckyDraw {
@@ -29,7 +23,12 @@ namespace LuckyDraw {
             formPoint.X = e.X;
             formPoint.Y = e.Y;
         }
+        // 最小化
+        private void BtnMin_Click(object sender, System.EventArgs e) {
+            this.WindowState = FormWindowState.Minimized;
+        }
 
+        // 关闭
         private void BtnClose_Click(object sender, System.EventArgs e) {
             Close();
         }
@@ -37,5 +36,6 @@ namespace LuckyDraw {
         private void FmDrawResult_FormClosing(object sender, FormClosingEventArgs e) {
             FmMain.fmDrawResult = null;
         }
+
     }
 }

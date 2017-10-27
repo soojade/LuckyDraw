@@ -29,6 +29,7 @@
             this.BtnStart = new System.Windows.Forms.Button();
             this.BtnResult = new System.Windows.Forms.Button();
             this.BtnClose = new System.Windows.Forms.Button();
+            this.BtnMin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnPersonnel
@@ -134,13 +135,32 @@
             this.BtnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnClose.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.BtnClose.ForeColor = System.Drawing.Color.Yellow;
-            this.BtnClose.Location = new System.Drawing.Point(954, 0);
+            this.BtnClose.Location = new System.Drawing.Point(958, 6);
             this.BtnClose.Margin = new System.Windows.Forms.Padding(4);
             this.BtnClose.Name = "BtnClose";
-            this.BtnClose.Size = new System.Drawing.Size(39, 24);
+            this.BtnClose.Size = new System.Drawing.Size(26, 26);
             this.BtnClose.TabIndex = 1;
             this.BtnClose.UseVisualStyleBackColor = false;
             this.BtnClose.Click += new System.EventHandler(this.BtnClose_Click);
+            // 
+            // BtnMin
+            // 
+            this.BtnMin.AutoSize = true;
+            this.BtnMin.BackColor = System.Drawing.Color.Transparent;
+            this.BtnMin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnMin.BackgroundImage")));
+            this.BtnMin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnMin.FlatAppearance.BorderColor = System.Drawing.Color.Cyan;
+            this.BtnMin.FlatAppearance.BorderSize = 0;
+            this.BtnMin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnMin.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.BtnMin.ForeColor = System.Drawing.Color.Yellow;
+            this.BtnMin.Location = new System.Drawing.Point(924, 6);
+            this.BtnMin.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnMin.Name = "BtnMin";
+            this.BtnMin.Size = new System.Drawing.Size(26, 26);
+            this.BtnMin.TabIndex = 1;
+            this.BtnMin.UseVisualStyleBackColor = false;
+            this.BtnMin.Click += new System.EventHandler(this.BtnMin_Click);
             // 
             // FmMain
             // 
@@ -151,6 +171,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(990, 525);
+            this.Controls.Add(this.BtnMin);
             this.Controls.Add(this.BtnClose);
             this.Controls.Add(this.BtnResult);
             this.Controls.Add(this.BtnStart);
@@ -177,5 +198,6 @@
         private System.Windows.Forms.Button BtnStart;
         private System.Windows.Forms.Button BtnResult;
         private System.Windows.Forms.Button BtnClose;
+        private System.Windows.Forms.Button BtnMin;
     }
 }

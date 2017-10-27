@@ -31,6 +31,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.BtnMin = new System.Windows.Forms.Button();
             this.BtnClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -132,20 +133,41 @@
             this.label5.Text = "操作提示：F1---准备抽奖  space---开始/停止";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // BtnMin
+            // 
+            this.BtnMin.AutoSize = true;
+            this.BtnMin.BackColor = System.Drawing.Color.Transparent;
+            this.BtnMin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnMin.BackgroundImage")));
+            this.BtnMin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnMin.FlatAppearance.BorderColor = System.Drawing.Color.Cyan;
+            this.BtnMin.FlatAppearance.BorderSize = 0;
+            this.BtnMin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnMin.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.BtnMin.ForeColor = System.Drawing.Color.Yellow;
+            this.BtnMin.Location = new System.Drawing.Point(785, 7);
+            this.BtnMin.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnMin.Name = "BtnMin";
+            this.BtnMin.Size = new System.Drawing.Size(26, 26);
+            this.BtnMin.TabIndex = 9;
+            this.BtnMin.UseVisualStyleBackColor = false;
+            this.BtnMin.Click += new System.EventHandler(this.BtnMin_Click);
+            // 
             // BtnClose
             // 
+            this.BtnClose.AutoSize = true;
             this.BtnClose.BackColor = System.Drawing.Color.Transparent;
             this.BtnClose.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnClose.BackgroundImage")));
             this.BtnClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnClose.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.BtnClose.FlatAppearance.BorderColor = System.Drawing.Color.Cyan;
             this.BtnClose.FlatAppearance.BorderSize = 0;
             this.BtnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnClose.Font = new System.Drawing.Font("楷体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.BtnClose.ForeColor = System.Drawing.Color.Red;
-            this.BtnClose.Location = new System.Drawing.Point(809, -3);
+            this.BtnClose.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.BtnClose.ForeColor = System.Drawing.Color.Yellow;
+            this.BtnClose.Location = new System.Drawing.Point(819, 7);
+            this.BtnClose.Margin = new System.Windows.Forms.Padding(4);
             this.BtnClose.Name = "BtnClose";
-            this.BtnClose.Size = new System.Drawing.Size(41, 27);
-            this.BtnClose.TabIndex = 8;
+            this.BtnClose.Size = new System.Drawing.Size(26, 26);
+            this.BtnClose.TabIndex = 10;
             this.BtnClose.UseVisualStyleBackColor = false;
             this.BtnClose.Click += new System.EventHandler(this.BtnClose_Click);
             // 
@@ -156,6 +178,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(850, 500);
+            this.Controls.Add(this.BtnMin);
             this.Controls.Add(this.BtnClose);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.listBox1);
@@ -172,6 +195,7 @@
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.FmDrawStart_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.FmDrawStart_MouseMove);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -183,6 +207,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button BtnMin;
         private System.Windows.Forms.Button BtnClose;
     }
 }
