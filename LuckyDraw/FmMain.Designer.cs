@@ -24,111 +24,123 @@
         /// </summary>
         private void InitializeComponent() {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FmMain));
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.btnClose = new System.Windows.Forms.Button();
+            this.BtnPersonnel = new System.Windows.Forms.Button();
+            this.BtnSetting = new System.Windows.Forms.Button();
+            this.BtnStart = new System.Windows.Forms.Button();
+            this.BtnResult = new System.Windows.Forms.Button();
+            this.BtnClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // BtnPersonnel
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(72)))), ((int)(((byte)(6)))));
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Cyan;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button1.ForeColor = System.Drawing.Color.Maroon;
-            this.button1.Location = new System.Drawing.Point(171, 19);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(121, 45);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "抽奖名单";
-            this.button1.UseVisualStyleBackColor = false;
+            this.BtnPersonnel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(72)))), ((int)(((byte)(6)))));
+            this.BtnPersonnel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnPersonnel.BackgroundImage")));
+            this.BtnPersonnel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnPersonnel.FlatAppearance.BorderColor = System.Drawing.Color.Cyan;
+            this.BtnPersonnel.FlatAppearance.BorderSize = 0;
+            this.BtnPersonnel.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.BtnPersonnel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.BtnPersonnel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnPersonnel.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.BtnPersonnel.ForeColor = System.Drawing.Color.Maroon;
+            this.BtnPersonnel.Location = new System.Drawing.Point(241, 22);
+            this.BtnPersonnel.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnPersonnel.Name = "BtnPersonnel";
+            this.BtnPersonnel.Size = new System.Drawing.Size(121, 45);
+            this.BtnPersonnel.TabIndex = 1;
+            this.BtnPersonnel.Text = "抽奖名单";
+            this.BtnPersonnel.UseVisualStyleBackColor = false;
+            this.BtnPersonnel.Click += new System.EventHandler(this.BtnPersonnel_Click);
+            this.BtnPersonnel.MouseLeave += new System.EventHandler(this.BtnPersonnel_MouseLeave);
+            this.BtnPersonnel.MouseHover += new System.EventHandler(this.BtnPersonnel_MouseHover);
             // 
-            // button2
+            // BtnSetting
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(72)))), ((int)(((byte)(6)))));
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Cyan;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button2.ForeColor = System.Drawing.Color.Maroon;
-            this.button2.Location = new System.Drawing.Point(300, 19);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(121, 45);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "奖项设置";
-            this.button2.UseVisualStyleBackColor = false;
+            this.BtnSetting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(72)))), ((int)(((byte)(6)))));
+            this.BtnSetting.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnSetting.BackgroundImage")));
+            this.BtnSetting.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnSetting.FlatAppearance.BorderColor = System.Drawing.Color.Cyan;
+            this.BtnSetting.FlatAppearance.BorderSize = 0;
+            this.BtnSetting.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.BtnSetting.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.BtnSetting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnSetting.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.BtnSetting.ForeColor = System.Drawing.Color.Maroon;
+            this.BtnSetting.Location = new System.Drawing.Point(373, 22);
+            this.BtnSetting.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnSetting.Name = "BtnSetting";
+            this.BtnSetting.Size = new System.Drawing.Size(121, 45);
+            this.BtnSetting.TabIndex = 1;
+            this.BtnSetting.Text = "奖项设置";
+            this.BtnSetting.UseVisualStyleBackColor = false;
+            this.BtnSetting.Click += new System.EventHandler(this.BtnSetting_Click);
+            this.BtnSetting.MouseLeave += new System.EventHandler(this.BtnSetting_MouseLeave);
+            this.BtnSetting.MouseHover += new System.EventHandler(this.BtnSetting_MouseHover);
             // 
-            // button3
+            // BtnStart
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(72)))), ((int)(((byte)(6)))));
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Cyan;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button3.ForeColor = System.Drawing.Color.Maroon;
-            this.button3.Location = new System.Drawing.Point(429, 19);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(121, 45);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "开始抽奖";
-            this.button3.UseVisualStyleBackColor = false;
+            this.BtnStart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(72)))), ((int)(((byte)(6)))));
+            this.BtnStart.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnStart.BackgroundImage")));
+            this.BtnStart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnStart.FlatAppearance.BorderColor = System.Drawing.Color.Cyan;
+            this.BtnStart.FlatAppearance.BorderSize = 0;
+            this.BtnStart.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.BtnStart.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.BtnStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnStart.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.BtnStart.ForeColor = System.Drawing.Color.Maroon;
+            this.BtnStart.Location = new System.Drawing.Point(505, 22);
+            this.BtnStart.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnStart.Name = "BtnStart";
+            this.BtnStart.Size = new System.Drawing.Size(121, 45);
+            this.BtnStart.TabIndex = 1;
+            this.BtnStart.Text = "开始抽奖";
+            this.BtnStart.UseVisualStyleBackColor = false;
+            this.BtnStart.Click += new System.EventHandler(this.BtnStart_Click);
+            this.BtnStart.MouseLeave += new System.EventHandler(this.BtnStart_MouseLeave);
+            this.BtnStart.MouseHover += new System.EventHandler(this.BtnStart_MouseHover);
             // 
-            // button5
+            // BtnResult
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(72)))), ((int)(((byte)(6)))));
-            this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Cyan;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button5.ForeColor = System.Drawing.Color.Maroon;
-            this.button5.Location = new System.Drawing.Point(558, 19);
-            this.button5.Margin = new System.Windows.Forms.Padding(4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(121, 45);
-            this.button5.TabIndex = 1;
-            this.button5.Text = "中奖查询";
-            this.button5.UseVisualStyleBackColor = false;
+            this.BtnResult.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(72)))), ((int)(((byte)(6)))));
+            this.BtnResult.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnResult.BackgroundImage")));
+            this.BtnResult.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnResult.FlatAppearance.BorderColor = System.Drawing.Color.Cyan;
+            this.BtnResult.FlatAppearance.BorderSize = 0;
+            this.BtnResult.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.BtnResult.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.BtnResult.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnResult.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.BtnResult.ForeColor = System.Drawing.Color.Maroon;
+            this.BtnResult.Location = new System.Drawing.Point(637, 22);
+            this.BtnResult.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnResult.Name = "BtnResult";
+            this.BtnResult.Size = new System.Drawing.Size(121, 45);
+            this.BtnResult.TabIndex = 1;
+            this.BtnResult.Text = "中奖查询";
+            this.BtnResult.UseVisualStyleBackColor = false;
+            this.BtnResult.Click += new System.EventHandler(this.BtnResult_Click);
+            this.BtnResult.MouseLeave += new System.EventHandler(this.BtnResult_MouseLeave);
+            this.BtnResult.MouseHover += new System.EventHandler(this.BtnResult_MouseHover);
             // 
-            // btnClose
+            // BtnClose
             // 
-            this.btnClose.AutoSize = true;
-            this.btnClose.BackColor = System.Drawing.Color.Transparent;
-            this.btnClose.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnClose.BackgroundImage")));
-            this.btnClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnClose.FlatAppearance.BorderColor = System.Drawing.Color.Cyan;
-            this.btnClose.FlatAppearance.BorderSize = 0;
-            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnClose.ForeColor = System.Drawing.Color.Yellow;
-            this.btnClose.Location = new System.Drawing.Point(796, 1);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(51, 30);
-            this.btnClose.TabIndex = 1;
-            this.btnClose.UseVisualStyleBackColor = false;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            this.BtnClose.AutoSize = true;
+            this.BtnClose.BackColor = System.Drawing.Color.Transparent;
+            this.BtnClose.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnClose.BackgroundImage")));
+            this.BtnClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnClose.FlatAppearance.BorderColor = System.Drawing.Color.Cyan;
+            this.BtnClose.FlatAppearance.BorderSize = 0;
+            this.BtnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnClose.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.BtnClose.ForeColor = System.Drawing.Color.Yellow;
+            this.BtnClose.Location = new System.Drawing.Point(954, 0);
+            this.BtnClose.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnClose.Name = "BtnClose";
+            this.BtnClose.Size = new System.Drawing.Size(39, 24);
+            this.BtnClose.TabIndex = 1;
+            this.BtnClose.UseVisualStyleBackColor = false;
+            this.BtnClose.Click += new System.EventHandler(this.BtnClose_Click);
             // 
             // FmMain
             // 
@@ -138,12 +150,12 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(850, 500);
-            this.Controls.Add(this.btnClose);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(990, 525);
+            this.Controls.Add(this.BtnClose);
+            this.Controls.Add(this.BtnResult);
+            this.Controls.Add(this.BtnStart);
+            this.Controls.Add(this.BtnSetting);
+            this.Controls.Add(this.BtnPersonnel);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -160,10 +172,10 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Button BtnPersonnel;
+        private System.Windows.Forms.Button BtnSetting;
+        private System.Windows.Forms.Button BtnStart;
+        private System.Windows.Forms.Button BtnResult;
+        private System.Windows.Forms.Button BtnClose;
     }
 }

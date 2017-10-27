@@ -61,11 +61,11 @@
     <Compile Include="FmDrawStart.Designer.cs">
       <DependentUpon>FmDrawStart.cs</DependentUpon>
     </Compile>
-    <Compile Include="FmPerson.cs">
+    <Compile Include="FmPersonnel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FmPerson.Designer.cs">
-      <DependentUpon>FmPerson.cs</DependentUpon>
+    <Compile Include="FmPersonnel.Designer.cs">
+      <DependentUpon>FmPersonnel.cs</DependentUpon>
     </Compile>
     <Compile Include="FmMain.cs">
       <SubType>Form</SubType>
@@ -87,8 +87,8 @@
     <EmbeddedResource Include="FmMain.resx">
       <DependentUpon>FmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FmPerson.resx">
-      <DependentUpon>FmPerson.cs</DependentUpon>
+    <EmbeddedResource Include="FmPersonnel.resx">
+      <DependentUpon>FmPersonnel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
