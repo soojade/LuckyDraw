@@ -111,9 +111,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\人员信息.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{644f495c-2f8f-44b5-ba67-7e7ad3d7a648}</Project>
       <Name>Common</Name>
@@ -126,21 +123,6 @@
       <Project>{53c8d646-7b8f-47b3-bb4d-4b497d3d8f8b}</Project>
       <Name>Models</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\btn.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\首页.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\抽奖页.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\start.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\结果查询页.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
